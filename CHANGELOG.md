@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.1.1](https://github.com/InstaZDLL/WaveFlow/compare/v2.1.0...v2.1.1) (2026-11-15)
+
+
+### Bug Fixes
+
+* **audio:** resume the track playing now after a gapless or crossfade hand-off ([ccd0477](https://github.com/InstaZDLL/WaveFlow/commit/ccd0477b9f90bf6e9ed62fed789179f521801b11))
+* **audio:** resume the track playing now after a gapless or crossfade hand-off ([6f4e3b1](https://github.com/InstaZDLL/WaveFlow/commit/6f4e3b1abd928912dd88970bc580a0e6f43fcbbf)), refs [#1103](https://github.com/InstaZDLL/WaveFlow/issues/1103)
+* **scanner:** cover the cases the review of the code page repair found ([27bba85](https://github.com/InstaZDLL/WaveFlow/commit/27bba85628c5f45ba6dbd2669383a96b55dadf60))
+* **scanner:** keep stored text when the tag is refused, and the rating ([817b052](https://github.com/InstaZDLL/WaveFlow/commit/817b052bcbf850187642d41bc3a61ceebb00cf53))
+* **scanner:** leave a refused tag's track alone and follow moved files ([5766ec8](https://github.com/InstaZDLL/WaveFlow/commit/5766ec88f70cabf06b8df02b881edc950afe6e63))
+* **scanner:** read tags written in a legacy cjk code page ([df1f368](https://github.com/InstaZDLL/WaveFlow/commit/df1f368742775cde2e6819b8632935414f4b5aca))
+* **scanner:** read tags written in a legacy cjk code page ([7411221](https://github.com/InstaZDLL/WaveFlow/commit/7411221fe48b8c7a41e4d562c6548fb704686170))
+* **scan:** repair stored legacy code page tags on the next scan ([472793e](https://github.com/InstaZDLL/WaveFlow/commit/472793e33900ae5b6a5322474e76bb13ebff6596))
+
 ## [2.1.0](https://github.com/InstaZDLL/WaveFlow/compare/v2.0.2...v2.1.0) (2026-11-14)
 
 
